@@ -3,3 +3,6 @@
 
 # Ignore .env file containing credentials, API keys, tokens, passwords, etc.
 .env
+
+# Ignore pycache
+/__pycache__
