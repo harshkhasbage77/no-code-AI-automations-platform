@@ -8,7 +8,7 @@ app = FastAPI()
 # Allow requests from frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Frontend origin
+    allow_origins=["http://localhost:3000","https://react-flow-graphs-frontend.vercel.app"],  # Frontend origin & # Deployed frontend origin
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
